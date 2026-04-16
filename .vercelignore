@@ -1,0 +1,11 @@
+# Ignore data and notebooks to save space on Vercel Lambda
+notebook/
+data/
+scratch/
+venv/
+.venv/
+.git/
+BaoCao_DoAn_ML.md
+
+# Ignore specific large model files if they are just experiments
+# models/random_forest_pipeline.pkl 
