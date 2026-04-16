@@ -4,4 +4,4 @@ joblib==1.4.2
 numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.5.0
-xgboost==2.0.3
+# xgboost removed to stay under 500MB limit
