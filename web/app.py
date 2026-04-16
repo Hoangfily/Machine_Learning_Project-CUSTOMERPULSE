@@ -27,9 +27,9 @@ def load_model():
     try:
         model = joblib.load(MODEL_PATH)
         preprocessor = joblib.load(PREPROCESSOR_PATH)
-        print(f"✓ Model loaded from {MODEL_PATH}")
+        print(f"[*] Model loaded from {MODEL_PATH}")
     except FileNotFoundError:
-        print("⚠ No model found. Please run the notebook first to train and save a model.")
+        print("[!] No model found. Please run the notebook first to train and save a model.")
 
 
 load_model()
